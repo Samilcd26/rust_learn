@@ -1,6 +1,13 @@
-mod Syntax;
+use Calculator::taskOne;
+mod Calculator;
+
 
 fn main() {
-    
-    println!("Hello, world!");
+    taskOne::calculator();
+  
 }
+
+
+
+
+
